@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3)",
+      "Bash(grep -E \"\\\\.\\(png|jpg|jpeg\\)$\")",
+      "Bash(pip install *)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\bakht\\\\Downloads\\\\Build website\\\\src\\\\imports\\\\\" -File | Where-Object {$_.Extension -match \"jpg|jpeg|png|webp\"} | Select-Object Name | ForEach-Object {$_.Name})"
+    ]
+  }
+}
