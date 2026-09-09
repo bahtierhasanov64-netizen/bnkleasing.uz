@@ -4,7 +4,16 @@
       "Bash(python3)",
       "Bash(grep -E \"\\\\.\\(png|jpg|jpeg\\)$\")",
       "Bash(pip install *)",
-      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\bakht\\\\Downloads\\\\Build website\\\\src\\\\imports\\\\\" -File | Where-Object {$_.Extension -match \"jpg|jpeg|png|webp\"} | Select-Object Name | ForEach-Object {$_.Name})"
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\bakht\\\\Downloads\\\\Build website\\\\src\\\\imports\\\\\" -File | Where-Object {$_.Extension -match \"jpg|jpeg|png|webp\"} | Select-Object Name | ForEach-Object {$_.Name})",
+      "Bash(git add *)",
+      "Bash(git commit -m 'add assetsDir to vite build config *)",
+      "Bash(git commit -m 'rebuild with optimized Vite config *)",
+      "Bash(git push *)",
+      "Bash(git commit -m 'add github pages deployment workflow *)",
+      "Bash(git reset *)",
+      "Bash(git ls-tree *)",
+      "Bash(git rm *)",
+      "Bash(git commit -m 'remove old dist folder from git tracking *)"
     ]
   }
 }
